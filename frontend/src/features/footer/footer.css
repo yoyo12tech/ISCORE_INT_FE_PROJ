@@ -1,0 +1,34 @@
+.footer{
+    background-color: #282c34;
+    color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+    justify-content: end;
+    font-size: calc(1px + 2vmin);
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    height: 80px;
+    width: 100%;
+    
+
+}
+.footer-text{
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    color: rgb(255, 255, 255);
+    font-size: calc(1px + 2vmin);
+    text-align: center;
+    position: relative;
+    left: 0px;
+    width: 700px;
+  
+
+    
+}
+
+.second-part-icons{
+    position: relative;
+    left: 7vw;
+    margin-top: 10px;
+}   
