@@ -1,24 +1,27 @@
-import './App.css';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import NavComponent from './features/navigationFeat/navComponent';
-import HeroSection from './features/heroSection/heroSec';
-import Footer from './features/footer/footer';
+import React from 'react';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
+
+import HomePage from './pages/homePage';
+import RegisterPage from './pages/registerPage';
+import LoginPage from './pages/loginPage';
+import UserHome from './pages/userHome';
 function App() {
   return (
-    <div className="App">
-      <NavComponent/>
-      <HeroSection/>
-      <Footer/>
-     
-    </div>
-  
-
-     
+    <Router>
+      <Routes>
+        {/*Routes*/}
+        <Route path="/" element={<HomePage />} />
+        <Route path="/register" element={<RegisterPage/>}/>
+        <Route path="/login" element={<LoginPage/>}/>
+        <Route path="/userHome" element={<UserHome/>}/>
 
 
 
+          
+      </Routes>
+    </Router>
   );
-};
+}
 
 export default App;
