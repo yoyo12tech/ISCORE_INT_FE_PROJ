@@ -64,7 +64,7 @@ const Login = () => {
 
   return (
     <div className="d-flex align-items-center py-5 bg-body-tertiary login-container">
-      <main className="form-signin  col-md-5 col-sm-6 m-auto login">
+      <main className="form-signin  col-md-3 col-sm-6 m-auto login">
         <form onSubmit={handleSubmit}>
           <div className="form-floating mb-3">
             <input
@@ -105,7 +105,7 @@ const Login = () => {
             <label htmlFor="floatingPassword">Password</label>
           </div>
 
-          <div className="form-check text-start my-3" style={{ color: 'white' }}>
+          <div className="form-check text-start my-3" style={{ color: 'grey' }}>
             <input
               className="form-check-input"
               type="checkbox"

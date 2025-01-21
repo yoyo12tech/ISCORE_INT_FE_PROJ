@@ -17,7 +17,7 @@
   }
 
 #hero-section{
-    color: rgb(207, 225, 255);
+    color: rgb(255, 255, 255);
 }
 .btn-primary{
     background-color: #1053fd;
@@ -28,15 +28,27 @@
 .btn-outline-primary {
   color: white; /* Default text color */
   border: 1px solid white; /* Border color */
-  box-shadow: 2px 2px 0px #0000004e; /* Optional: Add a shadow */
+  box-shadow: 2px 2px 0px #0000005f; /* Optional: Add a shadow */
   background-color: transparent; /* Transparent background */
   transition: all 0.3s ease; /* Smooth transition */
 }
 
 .btn-outline-primary:hover {
   color: rgb(255, 255, 255); /* Text color on hover */
-  background-color: rgb(184, 166, 166); /* Background color on hover */
+  background-color: rgb(53, 63, 255); /* Background color on hover */
   border-color: rgb(255, 255, 255); /* Optional: Change border color on hover */
+  box-shadow: 5px 5px  #0000005f; /* Optional: Add a shadow */
+
+}
+.btn-outline-primary:active {
+  background-color: transparent; /* Remove the shadow */
+} 
+
+.btn-primary:hover{
+    background-color: transparent;
+    color: white;
+    box-shadow: 5px 5px 0px #0000004a;
+    border: 1px solid white;
 }
 
 .img{

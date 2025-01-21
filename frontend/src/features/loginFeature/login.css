@@ -17,7 +17,9 @@
     }
   }
   .login{
-    background-color: #05232d;
+    background-color: #f1efef;
+    color: #000;
     padding: 20px 20px 20px 20px;
     border-radius: 20px;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.242);
   }
