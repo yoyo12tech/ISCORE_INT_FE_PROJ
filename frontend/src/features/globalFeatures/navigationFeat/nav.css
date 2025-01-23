@@ -1,22 +1,23 @@
 .App-header {
-    background-color: #ffffff;
-    min-height: 2vh;
-    display: flex;
+    background-color: #000000;
     flex-direction: row;
-    align-items: center;
-    justify-content: center;
+    align-items: center ;
+    justify-content: space-evenly;
     font-size: calc(1px + 2vmin);
     color: white;
     border-bottom: 1px solid rgb(0, 0, 0);
+    z-index: 3;
+    width: 100vw;
   }
   .headerPart{
     display: flex;
     flex-direction: row;
     align-items:center ;
-    justify-content: space-between;
-    width: 1000px;
+    justify-content: space-around;
+    z-index: 3;
 
   }
   .nav-link{
-    color: black;  
+    color: rgb(255, 255, 255);  
+    margin-left: 4vw;
   }

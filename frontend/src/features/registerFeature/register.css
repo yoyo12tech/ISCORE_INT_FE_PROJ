@@ -2,7 +2,7 @@
     background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
     background-size: 180% 180%;
     animation: gradient-animation 10s ease infinite;
-    height: 79vh;
+    height: 83vh;
   }
   
   @keyframes gradient-animation {
@@ -17,7 +17,7 @@
     }
   }
   .login{
-    background-color: #f1efef;;
+    background-color: #05232d;
     padding: 20px 20px 20px 20px;
     border-radius: 20px;
   }

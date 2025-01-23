@@ -7,7 +7,6 @@ const NavComponent = () => {
 
   return (
     <div className="App-header">
-      <div className="container">
         <header className="d-flex justify-content-center py-3">
           <ul className="nav nav-pills headerPart">
             <li className="nav-item">
@@ -54,7 +53,6 @@ const NavComponent = () => {
           </ul>
         </header>
       </div>
-    </div>
   );
 }
 

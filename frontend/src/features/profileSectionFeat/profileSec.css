@@ -3,13 +3,16 @@
   box-sizing: border-box;
   position: absolute;
   left: 35%;
-  background: rgb(255, 255, 255);
+  top: 15%;
+  background: rgb(0, 0, 0);
   border-radius: 30px;
-  border: 2px solid  #cac4c48d;
+  border-top: 10px groove  #1fe0fa;;
   box-shadow:  3px 3px rgba(0, 0, 0, 0.264);
-  width: 45vw;
+  width: 48vw;
   height: 55vh;
-  padding: 50px;
+  padding: 35px;
+
+
  
 }
 
@@ -17,10 +20,10 @@
 .profile-heading {
   font-size: 2.8rem;
   font-weight: 600;
-  color: #277dff;
+  color: #1fe0fa;
   text-align: center;
   margin-bottom: 20px;
-  border-bottom: 2px solid #277dff;
+  border-bottom: 2px solid#1fe0fa;;
   padding-bottom: 10px;
 }
 
@@ -42,7 +45,7 @@
 /* Label styling */
 .form-label {
   font-size: 1.2rem;
-  color: #277dff;
+  color: #1fe0fa;;
   font-weight: 500;
 }
 

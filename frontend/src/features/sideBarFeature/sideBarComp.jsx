@@ -3,7 +3,6 @@ import './sideBar.css'; // Import CSS file for styles
 
 const SideBar = ({onSelect}) => {
   return (
-    <div className="sideBar-containerNull">
       <div className="sidebar">
         {/* Navigation Links */}
         <div className="navSection">
@@ -43,7 +42,7 @@ const SideBar = ({onSelect}) => {
           </a>
         </div>
       </div>
-    </div>
+    
   );
 };
 

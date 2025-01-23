@@ -1,0 +1,98 @@
+/* taskManagement.css */
+.taskManagement-container {
+    padding: 50px;
+    font-family: Arial, sans-serif;
+    position: relative;
+    left:31vw;
+    top:5vh;
+    background-color: rgb(0, 0, 0);
+    color: rgb(145, 228, 21);
+    width: 60vw;
+    height: 70vh;
+    overflow-y: scroll;
+    border-top: 10px groove rgb(120, 255, 47);
+    border-radius: 20px;
+    scrollbar-color: rgb(82, 253, 44) rgba(151, 230, 33, 0);
+  }
+  
+  .taskManagement-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+
+
+  }
+  
+  
+  .addTaskButton {
+    background-color: #09dc1e;
+    color: rgb(0, 0, 0);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .addTaskButton:hover {
+    background-color: #3a3a3a;
+    color: #02c716;
+  }
+  
+  .taskForm {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 20px;
+  }
+  
+  .taskForm input, .taskForm textarea {
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .taskForm button {
+    background-color: #0be32f;
+    color: rgb(14, 13, 13);
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .taskForm button:hover {
+    background-color: #3a3a3a;
+    color: #64f572;
+  }
+  
+  .tasksGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-template-rows: repeat(auto-fill, minmax(100px, 1fr));
+    gap: 20px;
+  }
+  
+  .taskCard {
+    background-color: #1b1b1b;
+    border: 1px solid #000000;
+    color: rgb(120, 255, 47);    
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0px 4px 8px rgb(250, 250, 250);
+    transition: transform 0.2s ease;
+  }
+  
+  .taskCard:hover {
+    transform: translateY(-5px);
+  }
+  
+  .taskDeadline {
+    font-size: 12px;
+    color: #ff0000;
+    margin-top: 10px;
+  }
+  

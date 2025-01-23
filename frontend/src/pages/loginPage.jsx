@@ -8,9 +8,9 @@ const LoginPage = () => {
     return (
       <div>
         <NavComponent />
-        <div >
+        
           <Login/>
-        </div>
+        
         <Footer />
       </div>
     );
